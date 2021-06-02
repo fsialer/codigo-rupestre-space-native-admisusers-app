@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MiPrimerComponente from './Componentes/MiPrimerComponente';
+import MiSegundoComponente from './Componentes/MiSegundoComponente';
+import Pedidos from './Componentes/Pedidos';
+import Catalogo from './Componentes/Catalogo';
+import ClaseDosEjercicioUno from './Componentes/ClaseDosEjercicioUno';
+import EjemploStateUno from './Componentes/EjemploStateUno';
+import CambiarColor from './Componentes/CambiarColor';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CambiarColor />
   </React.StrictMode>,
   document.getElementById('root')
 );
